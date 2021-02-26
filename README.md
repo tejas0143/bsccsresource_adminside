@@ -1,0 +1,1 @@
+# bsccsresource_adminside
