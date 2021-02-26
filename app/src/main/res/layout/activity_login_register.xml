@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginRegisterActivity"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Admin App"
+        android:textSize="60sp"
+        android:textColor="#7F8787"
+        android:padding="30dp"
+        android:textAlignment="center"
+        android:layout_marginTop="40dp"
+        android:layout_gravity="center"/>
+    <ImageView
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_marginTop="40dp"
+        android:src="@drawable/icons_useravtar"
+        android:padding="30dp"
+        android:layout_gravity="center"/>
+
+    <com.google.android.material.button.MaterialButton
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="60dp"
+        android:onClick="handleLoginRegister"
+        android:text="Login/Register"
+        android:textColor="#BA0979"
+        android:textSize="20sp" />
+
+</LinearLayout>
